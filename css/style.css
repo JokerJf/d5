@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+button,a {
+    cursor: pointer;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.registr {
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 420px;
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png);
+    background-repeat: no-repeat;
+    background-position-x: 80px
+}
+.box_lobby {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 25px;
+    
+}
+.box_lobby .icon_img {
+    width: 300px;
+}
+.box_lobby .icon_img img {
+    width: 100%;
+    height: 100%;
+}
+.registr form {
+    background-color: white;
+    justify-content: center;
+    display: grid;
+    gap: 7px;
+    margin-top: 104px;
+    padding: 50px 0 0;
+}
+.registr form input {
+    outline: none;
+    border: #dbdbdb 1px solid;
+    font-size: 13px;
+    width: 280px;
+    height: 38px;
+    padding: 0px 8px;
+    border-radius: 4px;
+}
+.registr form .btn {
+    background-color:#4cb4f8;
+    color: white;
+    padding: 8px 0;
+    border-radius: 10px;
+    margin: 15px 0 0;
+}
+.registr .cherta {
+    margin: 25px auto 0;
+    width: 275px;
+    height: 1px;
+    background: #dbdbdb;
+}
+.registr .reg_text {
+    color: #8e8e8e;
+    position: relative;
+    left: 40%;
+    top: -10px;
+    background-color: white;
+    display: initial;
+    padding: 0px 20px;
+}    
+.registr .facebook {
+    background-image: url(https://img1.freepng.ru/20180327/ajq/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea6e2a1c9.4691877415221715589283.jpg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.registr .contact {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.registr .contact a{
+    text-decoration: none;
+    color: #385185;
+    font-weight: bold;
+    font-size: 16px;
+}
+.registr .pasw_none a {
+    text-decoration: none;
+    color: #00376b;
+    font-size: 13px;
+}
+.registr .pasw_none {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.block_2 {
+    display: grid;
+    gap: 10px;
+}
+.block_2 .now_play {
+    border: #dbdbdb 1px solid;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_2 .now_play span {
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* modal */
+
+.modal {
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 525px;
+    position: absolute;
+    left: 50%;
+    margin-top: 40px;
+    transform: translate(-50%,0);
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yS/r/ajlEU-wEDyo.png);
+    background-repeat: no-repeat;
+    background-position-x: 80px;
+}
+.modal input {
+    border: 1px solid #dbdbdb;
+    outline: none;
+    height: 40px;
+    padding: 0 10px 0 14px;
+    width: 260px;
+}
+.modal .log{
+    margin-top: 104px;
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    background-color: white;
+    padding: 50px 0 0;
+}
+.modal .log input[type=file] {
+    display: none;
+}
+.modal .log label {
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #385185;
+    cursor: pointer;
+}
+.modal .modal_btn {
+    display: flex;
+    margin: 25px auto 0;
+    background-color: #0095f6;
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.modal .text_nazad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #0095f6 1px;
+    width: 260px;
+    height: 35px;
+    margin: 15px auto 0;
+    cursor: pointer;
+}
+
+/* stranica */
+
+
+.stranica header {
+    gap: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 100px;
+}
+.stranica header button{
+    background: #0095f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    color: white;
+}
+.stranica .block_1 {
+    display: inline-block;
+    margin: 10px 0 0 20px;
+}
+.stranica .profel img {
+    border-radius: 100px;
+}
+.stranica .profel .prof_name {
+    text-align: center;
+}
+
+
+.dis_none {
+    display: none;
+}
+
+
+
